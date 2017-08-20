@@ -15,74 +15,24 @@
             win.addEventListener(resizeEvt, recalc, false);
             doc.addEventListener('DOMContentLoaded', recalc, false);
         })(document, window);</script><style>.loadEffect{
-            width: 100px;
-            height: 100px;
-            position: absolute;
-            margin: 0 auto;
-            top: 30%;
-            left: 0;
-            right: 0;
-            display: none;
-            z-index: 99999;
-        }
-        .loadEffect span{
-            display: inline-block;
-            width: 16px;
-            height: 16px;
-            border-radius: 50%;
-            background: #13c913;
-            position: absolute;
-            -webkit-animation: load 1.04s ease infinite;
-        }
-        @-webkit-keyframes load{
-            0%{
-                opacity: 1;
-            }
-            100%{
-                opacity: 0.2;
-            }
-        }
-        .loadEffect span:nth-child(1){
-            left: 0;
-            top: 50%;
-            margin-top:-8px;
-            -webkit-animation-delay:0.13s;
-        }
-        .loadEffect span:nth-child(2){
-            left: 14px;
-            top: 14px;
-            -webkit-animation-delay:0.26s;
-        }
-        .loadEffect span:nth-child(3){
-            left: 50%;
-            top: 0;
-            margin-left: -8px;
-            -webkit-animation-delay:0.39s;
-        }
-        .loadEffect span:nth-child(4){
-            top: 14px;
-            right:14px;
-            -webkit-animation-delay:0.52s;
-        }
-        .loadEffect span:nth-child(5){
-            right: 0;
-            top: 50%;
-            margin-top:-8px;
-            -webkit-animation-delay:0.65s;
-        }
-        .loadEffect span:nth-child(6){
-            right: 14px;
-            bottom:14px;
-            -webkit-animation-delay:0.78s;
-        }
-        .loadEffect span:nth-child(7){
+            position: fixed;
+            left:0;
+            right:0;
+            top:0;
             bottom: 0;
-            left: 50%;
-            margin-left: -8px;
-            -webkit-animation-delay:0.91s;
+            z-index: 999;
         }
-        .loadEffect span:nth-child(8){
-            bottom: 14px;
-            left: 14px;
-            -webkit-animation-delay:1.04s;
-        }</style><link href=./static/css/app.46f814d9af07cefecef8971e9d2c7e8f.css rel=stylesheet></head><body><div id=app></div><div class=loadEffect><span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span></div><script type=text/javascript src=./static/js/manifest.bfeef2e2a6c4e8ed489b.js></script><script type=text/javascript src=./static/js/vendor.0bdf5a1fb46ef953447d.js></script><script type=text/javascript src=./static/js/app.798cc10d42319e95874f.js></script></body></html>
+        .loadEffect .tips{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 40%;
+            margin: 0 auto;
+            width: 110px;
+            height: 40px;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 5px;
+        }</style><link href=./static/css/app.d4fda563fa29b451f8e0276f16dd1420.css rel=stylesheet></head><body><div id=app></div><div class=loadEffect><div class=tips>正在加载中...</div></div><script type=text/javascript src=./static/js/manifest.29daefee28b1cdf5817e.js></script><script type=text/javascript src=./static/js/vendor.2da5f7ffaf4dc6624a46.js></script><script type=text/javascript src=./static/js/app.33ef0c77d8fb60a51ff6.js></script></body></html>
