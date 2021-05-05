@@ -5,4 +5,4 @@
 4. [music](https://hugeorange.github.io/gh-pages/music)  `https://hugeorange.github.io/gh-pages/music`
 5. [vday](https://hugeorange.github.io/gh-pages/vday)  `https://hugeorange.github.io/gh-pages/vday`
 6. [弹幕演示页面](https://hugeorange.github.io/gh-pages/bullets/index) `https://hugeorange.github.io/gh-pages/bullets/index`
-7. 6. [cocos游戏](https://hugeorange.github.io/gh-pages/cocos/index) `https://hugeorange.github.io/gh-pages/cocos/index`
+7. [cocos游戏](https://hugeorange.github.io/gh-pages/cocos/index) `https://hugeorange.github.io/gh-pages/cocos/index`
